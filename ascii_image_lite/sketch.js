@@ -29,7 +29,7 @@ function draw() {
             const avg = (r+g+b) / 3
 
             noStroke();
-            fill(avg/2, 230, 0);
+            fill(r/3, g, b/3);
 
             const len = density.length;
             const charIndex = floor(map(avg, 0, 255, len, 0))
